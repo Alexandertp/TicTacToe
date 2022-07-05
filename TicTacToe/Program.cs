@@ -51,7 +51,7 @@ void CheckVictory(bool Tur)
         }
         else
         {
-            
+            Environment.Exit(0);
         }
     }
 }
