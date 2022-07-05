@@ -43,21 +43,13 @@ void CheckVictory(bool Tur)
             Console.WriteLine("O wins! \n");
             BolleWins++;
         }
-        Console.WriteLine("Vil du spille igen?");
-        string input = Console.ReadLine();
-        input = input.ToLower();
-        if (input == "yes" || input == "ja" || input == "jaer" || input == "totalt" || input == "yes." || input == "ja.")
-        {
-            ResetBoard();
-        }
-        else if (input == "ole")
-        {
-            Console.WriteLine("Der troede du vist du var smart, hva'?");
-        }
-        else
-        {
-            Environment.Exit(0);
-        }
+        RestartGame();
+        
+    }
+    else if (pos[0] != " " && pos[1] != " " && pos[2] != " " && pos[3] != " " && pos[4] != " " && pos[5] != " " && pos[6] != " " && pos[7] != " " && pos[8] != " ")
+    {
+        Console.WriteLine("Det står lige.");
+        RestartGame();
     }
 }
 void PrintBoard()
@@ -68,6 +60,24 @@ void PrintBoard()
     Console.WriteLine($" {pos[3]} | {pos[4]} | {pos[5]} ");
     Console.WriteLine($"----------");
     Console.WriteLine($" {pos[6]} | {pos[7]} | {pos[8]} ");
+}
+void RestartGame()
+{
+    Console.WriteLine("Vil du spille igen?");
+    string input = Console.ReadLine();
+    input = input.ToLower();
+    if (input == "yes" || input == "ja" || input == "jaer" || input == "totalt" || input == "yes." || input == "ja.")
+    {
+        ResetBoard();
+    }
+    else if (input == "ole")
+    {
+        Console.WriteLine("Der troede du vist du var smart, hva'?");
+    }
+    else
+    {
+        Environment.Exit(0);
+    }
 }
 
 void PlaceBrick(bool Tur)
