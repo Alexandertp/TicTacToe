@@ -45,9 +45,14 @@ void CheckVictory(bool Tur)
         }
         Console.WriteLine("Vil du spille igen?");
         string input = Console.ReadLine();
-        if (input.ToLower() == "yes" || input.ToLower() == "ja")
+        input = input.ToLower();
+        if (input == "yes" || input == "ja" || input == "jaer" || input == "totalt" || input == "yes." || input == "ja.")
         {
             ResetBoard();
+        }
+        else if (input == "ole")
+        {
+            Console.WriteLine("Der troede du vist du var smart, hva'?");
         }
         else
         {
@@ -82,6 +87,8 @@ void PlaceBrick(bool Tur)
             }
             catch (Exception ex)
             {
+                Console.Clear();
+                PrintBoard();
                 Console.WriteLine("Invalid input, prøv igen.");
                 cont = false;
             }
