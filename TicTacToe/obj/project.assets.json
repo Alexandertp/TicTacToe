@@ -8,23 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\alex145a\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\sande\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\alex145a\\source\\repos\\TicTacToe\\TicTacToe\\TicTacToe.csproj",
+      "projectUniqueName": "C:\\Users\\sande\\OneDrive\\Documents\\GitHub\\TicTacToe\\TicTacToe\\TicTacToe.csproj",
       "projectName": "TicTacToe",
-      "projectPath": "C:\\Users\\alex145a\\source\\repos\\TicTacToe\\TicTacToe\\TicTacToe.csproj",
-      "packagesPath": "C:\\Users\\alex145a\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\alex145a\\source\\repos\\TicTacToe\\TicTacToe\\obj\\",
+      "projectPath": "C:\\Users\\sande\\OneDrive\\Documents\\GitHub\\TicTacToe\\TicTacToe\\TicTacToe.csproj",
+      "packagesPath": "C:\\Users\\sande\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\sande\\OneDrive\\Documents\\GitHub\\TicTacToe\\TicTacToe\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\alex145a\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\sande\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -64,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }
